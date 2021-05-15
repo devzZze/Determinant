@@ -1,0 +1,27 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "payload": {
+            "button": "define"
+          },
+          "label": "Run"
+        },
+        "color": "positive"
+      },
+      {
+        "action": {
+          "type": "text",
+          "payload": {
+            "button": "cancel"
+          },
+          "label": "Cancel"
+        },
+        "color": "primary"
+      }
+    ]
+  ]
+}

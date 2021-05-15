@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Define</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        let data = window.location.href;
+
+        if (data.search('access_token')) {
+
+            $.ajax({
+                url: "/define",
+                type: "POST",
+                data: JSON.stringify({data: data, type: 'access'}),
+                contentType: "application/json",
+                dataType: "json",
+            });
+
+            window.location.replace('https://vk.com/im?sel=-201824660');
+        }
+
+    </script>
+</head>
+<body>
+Welcome to the Define server!
+</body>
+</html>

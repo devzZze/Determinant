@@ -1,0 +1,14 @@
+{
+  "vk": {
+    "confirmation": "436828e9",
+    "token": "60916b1aad9d701d90464fe90b997ad4537020b946f853cc610f0f52bbdbc9b512f4885a2bd96ee54ce85",
+    "secret_key": "D0_N0T_try_to_HaCK",
+    "dialog_link": "https://vk.com/im?sel=-201824660"
+  },
+  "university": {
+    "id": 1187912
+  },
+  "me": {
+    "token": "4a0d340dd39efae596fc28743d1d0f740a7fd1ea48f7c1dd5ae7378b277843b5d336d4086e2a53ad8102d"
+  }
+}
